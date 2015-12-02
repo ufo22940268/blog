@@ -3,16 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Shut up and keep coding
+subtitle: Android && Node.js Developer
 description:
-author: John Doe
-language:
-timezone:
+author: Frank Cheng
+email: ufo22940268@gmail.com
+language: zh-CN
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://bettycc.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -48,6 +49,9 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# Disqus
+disqus_shortname: bettcc
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -68,5 +72,5 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:https://github.com/ufo22940268/ufo22940268.github.com.git
+ type: git
+ repo: git@github.com:ufo22940268/ufo22940268.github.com.git

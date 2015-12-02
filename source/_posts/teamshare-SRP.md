@@ -1,6 +1,6 @@
 title: teamshare-SRP
 date: 2015-10-30 11:56:45
-tags:
+tags: [团队分享, CleanCode]
 ---
 
 # SRP
