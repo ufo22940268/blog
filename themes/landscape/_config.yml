@@ -2,6 +2,9 @@
 menu:
   Home: /
   Archives: /archives
+  Github: https://github.com/ufo22940268
+  About Me: /About-Me.html
+
 rss: /atom.xml
 
 # Content
