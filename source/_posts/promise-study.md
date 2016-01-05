@@ -1,4 +1,4 @@
-title: 关于Promise串行
+title: 关于Promise串行执行
 date: 2016-01-05 15:07:13
 tags:
 ---
