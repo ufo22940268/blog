@@ -24,15 +24,14 @@ tags:
     })
 ```
 
-其中__itemParser__中的, __getPrice__和__getGallery__方法返回的都是Promise。
+其中`itemParser`中的, `getPrice`和`getGallery`方法返回的都是Promise。
 
-这样子写，代码看起来挺好的，除了一个问题,我没办法让__props__串行执行。原因是因为Promise在构建的时候其实就已经开始执行方法体里面的代码了，具体细节可以看[debuggability](https://github.com/petkaantonov/bluebird/blob/master/src/debuggability.js#L182)。
+这样子写，代码看起来挺好的，除了一个问题,我没办法让`props`串行执行。原因是因为Promise在构建的时候其实就已经开始执行方法体里面的代码了，具体细节可以看[debuggability](https://github.com/petkaantonov/bluebird/blob/master/src/debuggability.js#L182)。
 
-那么这是不是意味着我们永远都没法在Promise里面串行执行了吗？当然不是。
-
+那么这是不是意味着我们永远都没法在Promise里面串行执行了吗？当然不是。  
 bluebird提供了下面四个方法支持了串行执行:
 
-- __map__ 需要执行concurrency为1. 
+- __map__ 需要执行concurrency为1
 - __mapSeries__
 - __each__
 - __reduce__
@@ -67,7 +66,7 @@ function makeWait(time) {
   };
 ```
 
-这里非常需要注意的一点是，__map__只有在处理__handler__返回的Promise的时候concurrency才会生效。  
+这里非常需要注意的一点是，`map`只有在处理`handler`返回的`Promise`的时候`concurrency`才会生效。  
 比如说下面这段代码是不会串行执行的:
 
 ```javascript
