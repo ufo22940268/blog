@@ -11,6 +11,7 @@ set -e
 
 git add -A .
 git commit -m "up"
+git push
 
 hexo generate
 hexo deploy
