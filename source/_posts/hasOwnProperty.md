@@ -56,6 +56,7 @@ tags:
 也许你会说，还有第三种方法`if (obj.a)`。 
 没错，很多人都这么用。但是其实这种用法非常糟糕，javascript里面的布尔转换本来就很容易引发bug。  
 比如：
+
     Boolean([]) //true
     Boolean({}) //true
     Boolean(0) //false
