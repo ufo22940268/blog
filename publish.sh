@@ -9,6 +9,8 @@
 
 set -e
 
+git pull
+
 git add -A .
 git commit -m "up"
 git push
