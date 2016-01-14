@@ -10,10 +10,10 @@ tags: node
 直接使用TJ大神的[n](https://www.npmjs.com/package/n)来安装node。  
 
 - 如果你想升级到最新的stable的版本
-    n stable 
+        n stable 
 
 - 如果你只是想升级到LTS
-    n 4.2.4
+        n 4.2.4
 
 
 ## 碰到依赖问题
