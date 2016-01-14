@@ -1,6 +1,6 @@
 title: Node升级到4.0
 date: 2016-01-14 10:23:30
-tags:node
+tags: node
 ---
 
 看到各种开源项目都纷纷用上了`es6`，包括`express`, `mongoose`等等。我感觉也是时候升级公司的项目了。
