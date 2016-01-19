@@ -6,7 +6,6 @@
 # Distributed under terms of the MIT license.
 #
 
-
 set -e
 
 git add -A .
