@@ -1,6 +1,6 @@
 title: 实时监控项目集成情况
 date: 2016-01-19 14:35:08
-tags:Jenkins Bitbar
+tags: Jenkins Bitbar
 ---
 
 先上个图
