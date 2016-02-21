@@ -12,11 +12,11 @@ tags: react webpack front-end
 直到上周末,我们业务发生修改.我想,是时候给前端加一些高级特性了,然后就开始重写整个前端框架.
 
 
-# 引入 React
+### 引入 React
 
 没有错,react 一直是我比较喜欢的技术.它在处理前端模块化的时候能起到非常不错的作用.关于 react 基本用法,这里就不说了(~~我也许懂得和你差不多~~).但是这里要着重强调下一个超级牛逼的liverload的[解决方案](https://gaearon.github.io/react-hot-loader/getstarted/),这个解决方案能够避免传统 livereload 的一些 side effect,比如说有的时候文件修改了但是网页没有刷新呀, 重新加载有延迟之类的.
 
-# 引入 React router
+### 引入 React router
 
 有人说
 
@@ -50,7 +50,7 @@ app.get('*', function (request, response) {
 
 加上这个路由之后,就能够保证每次请求,都能够用同一个前端路由进行处理,这样子就保证了地址的永久有效.
 
-# 引入 webpack 
+### 引入 webpack 
 
 webpack确实是特别帅的模块化工具.各种 loader 把css, json, jsx都转换成 javascript 进行加载.  
 所以这之后,你在 javascript 代码里面就能通过这种方式引入 css 文件了
